@@ -1,7 +1,9 @@
 .calculator__buttons {  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat (5, 1fr);
   gap: 0px 0px;
+  background-color: black;
+  width: ;
   grid-auto-flow: row;
   grid-template-areas:
     "ac button-plus-minus button-percentage button-division"
@@ -9,7 +11,11 @@
     "button-four button-five button-six button-minus"
     "button-one button-two button-three button-plus"
     "button-zero button-dot button-equal button-equal";
+
+    
 }
+
+
 
 .ac { grid-area: ac; }
 
@@ -48,3 +54,5 @@
 #button-dot { grid-area: button-dot; }
 
 #button-equal { grid-area: button-equal; }
+
+

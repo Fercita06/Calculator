@@ -1,8 +1,11 @@
 .calculator__buttons {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat 5, 1fr;
   gap: 0px 0px;
+  background-color: black;
+  width: 280px;
+  height: auto;
   grid-auto-flow: row;
   grid-template-areas: "ac button-plus-minus button-percentage button-division" "button-seven button-eight button-nine button-multiply" "button-four button-five button-six button-minus" "button-one button-two button-three button-plus" "button-zero button-dot button-equal button-equal";
 }
@@ -81,4 +84,30 @@
 
 #button-equal {
   grid-area: button-equal;
+}
+
+.calculator__display #display {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  padding: 10px;
+  line-height: 25px;
+  width: 256px;
+  max-width: 256px;
+}
+.calculator__button {
+  background-color: #333333;
+  color: white;
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.calculator__button--operator {
+  background-color: #FE9505;
+}
+
+#button-clear, #button-percentage, #button-plus-minus {
+  background-color: #A5A5A5;
 }/*# sourceMappingURL=styles.css.map */
