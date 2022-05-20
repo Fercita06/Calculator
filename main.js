@@ -1,3 +1,4 @@
+
 const numberDisplay = document.getElementById("display");
 const numberButtons = document.querySelectorAll(".calculator__button");
 console.log("numberButtons");
