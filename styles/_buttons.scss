@@ -1,9 +1,12 @@
-.calculator__buttons {  display: grid;
+
+
+.calculator__buttons {  
+ 
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat (5, 1fr);
   gap: 0px 0px;
   background-color: black;
-  width: ;
+
   grid-auto-flow: row;
   grid-template-areas:
     "ac button-plus-minus button-percentage button-division"

@@ -86,14 +86,15 @@
   grid-area: button-equal;
 }
 
-.calculator__display #display {
-  display: block;
-  margin: 0 auto;
-  font-size: 20px;
-  padding: 10px;
-  line-height: 25px;
-  width: 256px;
-  max-width: 256px;
+.calculator__display {
+  height: 45px;
+  border: 2px solid #000;
+  width: 276px;
+  line-height: 45px;
+  font-size: 40px;
+  padding: 0 10;
+  background-color: black;
+  color: white;
 }
 .calculator__button {
   background-color: #333333;
@@ -106,6 +107,20 @@
 }
 .calculator__button--operator {
   background-color: #FE9505;
+}
+
+input {
+  border:none;
+  background-image:none;
+  background-color:transparent;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  width: 100%;
+  height: 45px;
+  line-height: 45px;
+  color:white;
+  
 }
 
 #button-clear, #button-percentage, #button-plus-minus {

@@ -3,8 +3,6 @@
 
 
 
-
-
 .calculator{
     &__button{
     background-color:$numbers-color;
@@ -20,16 +18,23 @@
     background-color:$operators-colors;
 
   }
+
+  &__display{
+    height: 45px;
+    border: 2px solid white@;
+    width: 256px;
+    line-height: 45px;
+    font-size: 30px;
+    padding: 0 10;
+    background-color: black;
+
+  }
+
 }
-
-#display{
-  background-color: $primary-color;
-}
-
-
 
 
 #button-clear, #button-percentage, #button-plus-minus {
   background-color: $secondary-operators-colors;
 }
+
 

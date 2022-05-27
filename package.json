@@ -1,0 +1,23 @@
+{
+  "name": "calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test:cypress": "cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fercita06/calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fercita06/calculator/issues"
+  },
+  "homepage": "https://github.com/Fercita06/calculator#readme",
+  "devDependencies": {
+    "cypress": "^9.7.0"
+  }
+}
