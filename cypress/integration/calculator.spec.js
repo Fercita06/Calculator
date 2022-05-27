@@ -100,4 +100,3 @@ describe("should perform addition", () => {
   });
 });
 
-
